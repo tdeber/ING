@@ -1,0 +1,129 @@
+$date
+	Tue May 27 10:15:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module EJ1_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 2 " sJK [1:0] $end
+$var reg 1 # sclk $end
+$var integer 32 $ i [31:0] $end
+$scope module UUT $end
+$var wire 1 % J $end
+$var wire 1 & K $end
+$var wire 1 ' Q $end
+$var wire 1 # clk $end
+$var reg 1 ( aux $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 !
+$end
+#0
+$dumpvars
+0(
+0'
+x&
+x%
+b0 $
+0#
+bx "
+$end
+#50000
+1#
+#100000
+0%
+0&
+0#
+b1 $
+b0 "
+#150000
+1#
+#200000
+1&
+0#
+b10 $
+b1 "
+#250000
+1#
+#300000
+1%
+0&
+0#
+b11 $
+b10 "
+#350000
+1'
+1(
+1#
+#400000
+1&
+0#
+b100 $
+b11 "
+#450000
+0'
+0(
+1#
+#500000
+0#
+#550000
+1'
+1(
+1#
+#600000
+0#
+#650000
+0'
+0(
+1#
+#700000
+0#
+#750000
+1'
+1(
+1#
+#800000
+0#
+#850000
+0'
+0(
+1#
+#900000
+0#
+#950000
+1'
+1(
+1#
+#1000000
+0#
+#1050000
+0'
+0(
+1#
+#1100000
+0#
+#1150000
+1'
+1(
+1#
+#1200000
+0#
+#1250000
+0'
+0(
+1#
+#1300000
+0#
+#1350000
+1'
+1(
+1#
+#1400000
+0#

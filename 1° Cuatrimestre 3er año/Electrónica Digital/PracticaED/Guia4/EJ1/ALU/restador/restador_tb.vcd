@@ -1,0 +1,151 @@
+$date
+	Sat May 17 14:46:16 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module restador_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 3 " Entrada [2:0] $end
+$var reg 1 # clk $end
+$var integer 32 $ i [31:0] $end
+$scope module UUT $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 ' Bin $end
+$var wire 1 ( Bout $end
+$var wire 1 ) R $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 !
+$end
+#0
+$dumpvars
+x)
+x(
+x'
+x&
+x%
+b0 $
+0#
+bx "
+$end
+#50000
+1#
+#100000
+0)
+0(
+0%
+0&
+0'
+0#
+b1 $
+b0 "
+#150000
+1#
+#200000
+1)
+1(
+1'
+0#
+b10 $
+b1 "
+#250000
+1#
+#300000
+1&
+0'
+0#
+b11 $
+b10 "
+#350000
+1#
+#400000
+0)
+1'
+0#
+b100 $
+b11 "
+#450000
+1#
+#500000
+1)
+0(
+1%
+0&
+0'
+0#
+b101 $
+b100 "
+#550000
+1#
+#600000
+0)
+1'
+0#
+b110 $
+b101 "
+#650000
+1#
+#700000
+0)
+1&
+0'
+0#
+b111 $
+b110 "
+#750000
+1#
+#800000
+1)
+1(
+1'
+0#
+b1000 $
+b111 "
+#850000
+1#
+#900000
+0#
+#950000
+1#
+#1000000
+0#
+#1050000
+1#
+#1100000
+0#
+#1150000
+1#
+#1200000
+0#
+#1250000
+1#
+#1300000
+0#
+#1350000
+1#
+#1400000
+0#
+#1450000
+1#
+#1500000
+0#
+#1550000
+1#
+#1600000
+0#
+#1650000
+1#
+#1700000
+0#
+#1750000
+1#
+#1800000
+0#

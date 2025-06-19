@@ -1,0 +1,102 @@
+$date
+	Sat May 17 15:22:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ clk $end
+$var reg 3 % cod [2:0] $end
+$scope module UUT $end
+$var wire 1 " OP1 $end
+$var wire 1 # OP2 $end
+$var wire 3 & codigo [2:0] $end
+$var wire 1 ' rta_suma $end
+$var wire 1 ( rta_resta $end
+$var wire 1 ) c_suma $end
+$var wire 1 * b_resta $end
+$var reg 1 + BCout $end
+$var reg 1 , RTA $end
+$scope module Resta $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 - Bin $end
+$var wire 1 * Bout $end
+$var wire 1 ( R $end
+$upscope $end
+$scope module Suma $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 . Cin $end
+$var wire 1 ) Cout $end
+$var wire 1 ' S $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 !
+$end
+#0
+$dumpvars
+0.
+z-
+1,
+0+
+0*
+0)
+x(
+1'
+b1 &
+b1 %
+0$
+0#
+1"
+$end
+#50000
+1$
+#100000
+0$
+#150000
+1$
+#200000
+0$
+#250000
+1$
+#300000
+0$
+#350000
+1$
+#400000
+0$
+#450000
+1$
+#500000
+0$
+#550000
+1$
+#600000
+0$
+#650000
+1$
+#700000
+0$
+#750000
+1$
+#800000
+0$
+#850000
+1$
+#900000
+0$
+#950000
+1$
+#1000000
+0$

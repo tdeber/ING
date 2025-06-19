@@ -1,0 +1,123 @@
+$date
+	Sat May 17 15:39:35 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Sumador4Bits_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 1 $ clk $end
+$scope module UUT $end
+$var wire 4 % E1 [3:0] $end
+$var wire 4 & E2 [3:0] $end
+$var wire 1 ' c3 $end
+$var wire 1 ( c2 $end
+$var wire 1 ) c1 $end
+$var wire 4 * R [3:0] $end
+$var wire 1 + Co $end
+$scope module S1 $end
+$var wire 1 , A $end
+$var wire 1 - B $end
+$var wire 1 . Cin $end
+$var wire 1 ) Cout $end
+$var wire 1 / S $end
+$upscope $end
+$scope module S2 $end
+$var wire 1 0 A $end
+$var wire 1 1 B $end
+$var wire 1 ) Cin $end
+$var wire 1 ( Cout $end
+$var wire 1 2 S $end
+$upscope $end
+$scope module S3 $end
+$var wire 1 3 A $end
+$var wire 1 4 B $end
+$var wire 1 ( Cin $end
+$var wire 1 ' Cout $end
+$var wire 1 5 S $end
+$upscope $end
+$scope module S4 $end
+$var wire 1 6 A $end
+$var wire 1 7 B $end
+$var wire 1 ' Cin $end
+$var wire 1 + Cout $end
+$var wire 1 8 S $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 !
+$end
+#0
+$dumpvars
+08
+17
+06
+05
+04
+13
+02
+11
+10
+1/
+0.
+1-
+0,
+1+
+b1 *
+0)
+1(
+1'
+b1011 &
+b110 %
+0$
+b1011 #
+b110 "
+$end
+#50000
+1$
+#100000
+0$
+#150000
+1$
+#200000
+0$
+#250000
+1$
+#300000
+0$
+#350000
+1$
+#400000
+0$
+#450000
+1$
+#500000
+0$
+#550000
+1$
+#600000
+0$
+#650000
+1$
+#700000
+0$
+#750000
+1$
+#800000
+0$
+#850000
+1$
+#900000
+0$
+#950000
+1$
+#1000000
+0$

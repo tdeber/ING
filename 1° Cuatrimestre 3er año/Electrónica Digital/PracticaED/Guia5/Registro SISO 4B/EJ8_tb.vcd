@@ -1,0 +1,260 @@
+$date
+	Tue Jun 03 18:05:32 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module EJ8_tb $end
+$var parameter 32 ! DURATION $end
+$var reg 1 " sD $end
+$var reg 1 # sclk $end
+$var reg 1 $ sdir $end
+$var reg 1 % senable $end
+$var reg 1 & sreset $end
+$var reg 1 ' sset $end
+$scope module UUT $end
+$var wire 1 " D $end
+$var wire 1 # clk $end
+$var wire 1 $ dir $end
+$var wire 1 % enable $end
+$var wire 1 & reset $end
+$var wire 1 ' set $end
+$var wire 4 ( q_int [3:0] $end
+$var wire 1 ) Q $end
+$var reg 4 * dir_d [3:0] $end
+$scope module FF0 $end
+$var wire 1 + D $end
+$var wire 1 # clk $end
+$var wire 1 % enable $end
+$var wire 1 & reset $end
+$var wire 1 ' set $end
+$var wire 1 , Q $end
+$var reg 1 , aux $end
+$upscope $end
+$scope module FF1 $end
+$var wire 1 - D $end
+$var wire 1 # clk $end
+$var wire 1 % enable $end
+$var wire 1 & reset $end
+$var wire 1 ' set $end
+$var wire 1 . Q $end
+$var reg 1 . aux $end
+$upscope $end
+$scope module FF2 $end
+$var wire 1 / D $end
+$var wire 1 # clk $end
+$var wire 1 % enable $end
+$var wire 1 & reset $end
+$var wire 1 ' set $end
+$var wire 1 0 Q $end
+$var reg 1 0 aux $end
+$upscope $end
+$scope module FF3 $end
+$var wire 1 1 D $end
+$var wire 1 # clk $end
+$var wire 1 % enable $end
+$var wire 1 & reset $end
+$var wire 1 ' set $end
+$var wire 1 2 Q $end
+$var reg 1 2 aux $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1010 !
+$end
+#0
+$dumpvars
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+b0 *
+0)
+b0 (
+0'
+1&
+1%
+0$
+0#
+0"
+$end
+#50000
+1#
+#100000
+b1 *
+0#
+1"
+0&
+#150000
+1#
+#200000
+b0 *
+0#
+0"
+#250000
+1#
+#300000
+b1 *
+0#
+1"
+#350000
+1#
+#400000
+0#
+#450000
+1#
+#500000
+b0 *
+0#
+0"
+#550000
+1#
+#600000
+0#
+#650000
+1#
+#700000
+0#
+#750000
+1#
+#800000
+0#
+#850000
+1#
+#900000
+1+
+1-
+1/
+11
+b1000 *
+0#
+1"
+1$
+#950000
+1)
+b1111 *
+1,
+1.
+10
+b1111 (
+12
+1#
+#1000000
+0+
+0-
+0/
+01
+b111 *
+0#
+0"
+#1050000
+0)
+b0 *
+02
+00
+0.
+b0 (
+0,
+1#
+#1100000
+1+
+1-
+1/
+11
+b1000 *
+0#
+1"
+#1150000
+1)
+b1111 *
+1,
+1.
+10
+b1111 (
+12
+1#
+#1200000
+0#
+#1250000
+1#
+#1300000
+0+
+0-
+0/
+01
+b111 *
+0#
+0"
+#1350000
+0)
+b0 *
+0,
+0.
+00
+b0 (
+02
+1#
+#1400000
+0#
+#1450000
+1#
+#1500000
+0#
+#1550000
+1#
+#1600000
+0#
+#1650000
+1#
+#1700000
+0#
+#1750000
+1#
+#1800000
+0#
+#1850000
+1#
+#1900000
+0#
+#1950000
+1#
+#2000000
+0#
+#2050000
+1#
+#2100000
+0#
+#2150000
+1#
+#2200000
+0#
+#2250000
+1#
+#2300000
+0#
+#2350000
+1#
+#2400000
+0#
+#2450000
+1#
+#2500000
+0#
+#2550000
+1#
+#2600000
+0#
+#2650000
+1#
+#2700000
+0#
