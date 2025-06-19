@@ -8,7 +8,7 @@ module estacionamiento_top(
 
 wire ingreso, egreso;
 
-TPI detector (
+    TPI detector ( //TPI es el detector de secuancia. Me detecta si un auto ingresa o sale y me lo envia en ingreso o egreso.
     .clk(clk),
     .reset(reset),
     .a(a),
@@ -17,7 +17,7 @@ TPI detector (
     .egreso(egreso)
 );
 
-ContadorUD contador(
+    ContadorUD contador( //Cuenta los vehiculos dentro del estacionamiento.
     .clk(clk),
     .reset(reset),
     .up(ingreso),
